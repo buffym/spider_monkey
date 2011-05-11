@@ -1,0 +1,13 @@
+== spider_monkey
+
+A simple ruby link validation class.
+
+=== Example
+monkey = SpiderMonkey::Finder.new('http://www.google.com')
+
+monkey.broken = contains a list of all broken links and images found at the
+supplied url.
+
+
+_Limitations_:
+Does not follow redirection.
