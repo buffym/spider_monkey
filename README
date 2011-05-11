@@ -9,5 +9,5 @@ monkey.broken = contains a list of all broken links and images found at the
 supplied url.
 
 
-_Limitations_:
+Limitations:
 Does not follow redirection.
